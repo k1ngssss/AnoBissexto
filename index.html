@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Atividade 014 pt2 - Ano Bissexto</title>
+    <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--Título-->
+        <h1>Anos Bissextos e anos não Bissextos</h1>
+        <!--Tabela de legendas-->
+        <table>
+            <tr>
+                <th colspan="2" style="font-size: 40px;">Legenda</th>
+            </tr>
+            <tr>
+                <th>Ano Bissexto:</th>
+                <th>Ano que é divisível por 4, mas não o é por 100</th>
+            </tr>
+            <tr>
+                <th>Ano de festival Huluculu:</th>
+                <th>Ano que é divisível por 15</th>
+            </tr>
+            <tr>
+                <th>Ano de festival Bulukulu:</th>
+                <th>Anos bissextos que são divisíveis por 55</th>
+            </tr>
+        </table>
+        <div>Insira um ano, superior ou igual a 2000:
+            <input type="number" id="ano" placeholder="Insira um ano" class="input">
+            <button type="button" onclick="anob()">Validar</button>
+        </div>
+        <div id="tano" class="output"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
